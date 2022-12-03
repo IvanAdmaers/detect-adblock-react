@@ -19,7 +19,6 @@ export const useDetectAdblock = () => {
     if (startDetect !== true) {
       return;
     }
-    console.log('useEffect()');
 
     const doDetectBlock = async () => {
       try {
@@ -37,7 +36,6 @@ export const useDetectAdblock = () => {
   }, [startDetect]);
 
   const detect = useCallback(() => {
-    console.log('detect()');
     setStartDetect(true);
   }, []);
 
