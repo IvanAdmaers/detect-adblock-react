@@ -1,6 +1,6 @@
 {
   "name": "detect-adblock-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adblock detector for React",
   "author": "IvanAdmaers (https://ivanadmaers.com)",
   "license": "MIT",
