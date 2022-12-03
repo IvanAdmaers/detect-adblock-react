@@ -1,0 +1,15 @@
+{
+  "name": "detect-adblock-react-example",
+  "homepage": ".",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "webpack serve",
+    "build": "NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "react": "file:../node_modules/react",
+    "react-dom": "file:../node_modules/react-dom",
+    "detect-adblock-react": "file:.."
+  }
+}

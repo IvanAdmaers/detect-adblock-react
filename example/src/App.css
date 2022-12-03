@@ -1,0 +1,48 @@
+body {
+  font-family: system-ui, sans-serif;
+  background-color: rgb(17 24 39 / 1);
+  color: rgb(255 255 255 / 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: transparent;
+  background-image: linear-gradient(to right, #22c55e, #3b82f6, #a855f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.header-links-list {
+  text-align: center;
+}
+
+.header-link:first-child {
+  margin-left: 0;
+}
+
+.header-link {
+  color: #fff;
+  margin-left: 1rem;
+  transition: 0.3s ease;
+}
+
+.header-link:hover {
+  opacity: 0.8;
+}
+
+.content {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.info {
+  color: rgb(156 163 175 / 1);
+}

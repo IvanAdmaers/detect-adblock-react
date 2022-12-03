@@ -1,0 +1,9 @@
+.line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: rgb(147 51 234 / 1);
+  transition: 0.1s ease-in-out;
+}
