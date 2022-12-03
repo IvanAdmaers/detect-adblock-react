@@ -22,7 +22,11 @@ export const useDetectAdblock = () => {
 
     const doDetectBlock = async () => {
       try {
-        await fetch(url);
+        await fetch(url, {
+          method: 'HEAD',
+          mode: 'no-cors',
+          cache: 'no-store',
+        });
 
         setAdBlockDetected(false);
       } catch (error) {
